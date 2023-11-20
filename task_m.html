@@ -1,109 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/brands.min.css"
-        integrity="sha512-W/zrbCncQnky/EzL+/AYwTtosvrM+YG/V6piQLSe2HuKS6cmbw89kjYkp3tWFn1dkWV7L1ruvJyKbLz73Vlgfg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/brands.min.css" integrity="sha512-W/zrbCncQnky/EzL+/AYwTtosvrM+YG/V6piQLSe2HuKS6cmbw89kjYkp3tWFn1dkWV7L1ruvJyKbLz73Vlgfg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
-        
-        body {
+        .image{
             width: 100%;
             height: 100vh;
+            background-position: center;
             background: url(https://jacoblund.com/cdn/shop/products/014ecac70ec30fff37217c205c3db4d7_grande.jpg?v=1679492601);
             background-repeat: no-repeat;
             background-size: cover;
         }
-
-        h1 {
+        .image-overlay{
+            width: 100%;
+            height: 100vh;
+            background-color: rgba(154, 86, 213, 0.845);
+        }
+        h1{
             position: absolute;
             left: 140px;
             color: white;
+           
         }
-
-        .icondiamond {
+        .icondiamond{
             position: absolute;
             top: 18px;
             left: 103px;
         }
-
-        .iconsearch {
+        .iconsearch{
             position: absolute;
+            
             top: 15px;
             left: 1238px;
         }
-
-        .iconuser {
+        .iconuser{
             position: absolute;
+            
             top: 15px;
             left: 1278px;
         }
-
-        .iconmoon {
+        .iconmoon{
             position: absolute;
             left: 1370px;
-            top: 15px;
+            top:15px;
         }
-
-        h3 {
+        h3{
             position: absolute;
             top: 40px;
             left: 163px;
             color: white;
         }
-
-        ul {
+        ul{
             position: absolute;
             left: 550px;
             top: 25px;
             text-align: center;
             font-size: large;
+
         }
-
-        li {
-
-            display: inline;
+        
+        li{
+            
+            display: inline;  
             margin: 0.6cm;
             color: white;
             position: static;
         }
-
-        h5 {
+        h5{
             color: white;
             position: absolute;
-            right: 168px;
+            right: 185px;
             top: 25px;
         }
-
-        .text {
+        .text{
             position: absolute;
             top: 250px;
             left: 600px;
         }
-
-        .text2 {
+        .text2{
             position: absolute;
             top: 300px;
             left: 730px;
         }
-
-        .text3 {
+        .text3{
             color: white;
             position: absolute;
             top: 330px;
             left: 630px;
         }
-
-        button {
+        button{
             height: 30px;
             width: 200px;
-            background-color: rgb(236, 90, 139);
+        background-color: rgb(236,90,139);
             border-radius: 20px;
             color: rgb(247, 247, 247);
             border: none;
@@ -112,21 +104,13 @@
             top: 420px;
             left: 705px;
         }
-
-        .image-overlay {
-            
-
-            width: 100%;
-            height: 100vh;
-            background-color: rgba(154, 86, 213, 0.845);
-        background-size: cover;
-        }
     </style>
 </head>
-
 <body>
+    <div class="image">
+      
     <header>
-
+        
         <h1> Study Course</h1>
         <h1 class="icondiamond"><i class="fa-regular fa-gem" style="color: #e010a9;"></i></h1>
         <h3>journey to success </h3>
@@ -138,18 +122,15 @@
                 <li>Pages</li>
                 <li>Contact</li>
             </ul>
-        </nav>
-        <h1 class="iconsearch"><i class="fa-solid fa-magnifying-glass fa-2xs"></i></h1>
-        <h1 class="iconuser"><i class="fa-solid fa-user fa-2xs" style="color: #fffafa;"></i></h1>
-        <h5>Longin</h5>
-        <h1 class="iconmoon"><i class="fa-regular fa-moon fa-2xs" style="color: #ffffff;"></i></h1>
-    </header>
-    <h1 class="text">50% Discount on all Popular <br></h1><br>
-    <h1 class="text2">Courses</h1>
-    <h4 class="text3">Take the first step to your lourney to success with us</h4>
-    <button>Ready to get started?</button>
-    <div class="image-overlay"></div>
-    </div>
-</body>
-
+            </nav>
+            <h1 class="iconsearch"><i class="fa-solid fa-magnifying-glass fa-2xs"></i></h1>
+            <h1 class="iconuser"><i class="fa-solid fa-user fa-2xs" style="color: #fffafa;"></i></h1>
+            <h5>Longin</h5>
+            <h1 class="iconmoon"><i class="fa-regular fa-moon fa-2xs" style="color: #ffffff;"></i></h1>
+        </header>
+        <h1 class="text">50% Discount on all Popular <br></h1><br>
+        <h1 class="text2">Courses</h1>
+        <h4 class="text3">Take the first step to your lourney to success with us</h4>
+        <button>Ready to get started?</button>
+    </body>
 </html>
