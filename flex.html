@@ -6,9 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .continer {
-            
+        body{
             text-align: center;
+        }
+        .continer {
+            display: flex;
+            justify-content: center;
+          /* align-items: center;*/
+          flex-wrap: wrap;/**/
+            
         }
 
         img {
@@ -17,17 +23,18 @@
         }
 
         .first {
-            display: inline-block;
-            flex-wrap: wrap;
+            
+        
             width: 400px;
         }
     </style>
 </head>
 
-<body>
-    <div class="continer">
+<body>    
         <p>join our learn courses</p>
         <h2>Featured online courses</h2>
+    <div class="continer">
+
         <div class="first">
             <img src="Image/student-with laptop.jpg" alt="">
             <p>

@@ -12,6 +12,30 @@
         integrity="sha512-W/zrbCncQnky/EzL+/AYwTtosvrM+YG/V6piQLSe2HuKS6cmbw89kjYkp3tWFn1dkWV7L1ruvJyKbLz73Vlgfg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
+        /* * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .wave-header {
+            min-height: 100vh;
+            width: 100%;
+            background: orange;
+            position: relative;
+            display: flex;
+            
+        }
+        .wave-header h1{
+            font-size: 4em;
+            color: #fff;
+        }
+        svg{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }*/
+
         body {
             width: 100%;
             height: 100vh;
@@ -74,7 +98,7 @@
             position: static;
         }
 
-       
+
 
         h5 {
             color: white;
@@ -85,21 +109,21 @@
 
         .text {
             position: absolute;
-            top: 250px;
+            top: 130px;
             left: 600px;
         }
 
         .text2 {
             position: absolute;
-            top: 300px;
-            left: 730px;
+            top: 166px;
+            left: 735px;
         }
 
         .text3 {
             color: white;
             position: absolute;
-            top: 330px;
-            left: 630px;
+            top: 200px;
+            left: 618px;
         }
 
         button {
@@ -111,13 +135,13 @@
             border: none;
             cursor: pointer;
             position: absolute;
-            top: 400px;
-            left: 705px;
+            top: 280px;
+            left: 695px;
         }
 
         .overlay {
-            width:100%;
-            height:100vh;
+            width: 100%;
+            height: 100vh;
             background-color: rgba(154, 86, 213, 0.845);
             background-size: cover;
         }
@@ -130,10 +154,122 @@
             color: white;
             text-decoration: none;
         }
+
+        p {
+            position: relative;
+            top: 18px;
+            color: rgb(255, 255, 255);
+            font-size: small;
+        }
+
+        .continer {
+            position: relative;
+            text-align: center;
+            bottom: 280px;
+            left: 35px;
+        }
+
+        img {
+            position: relative;
+            bottom: 270px;
+            left: 18%;
+            width: 300px;
+            height: 175px;
+        }
+
+        .parg1 {
+            color: rgb(255, 253, 253);
+            font-size: large;
+            position: absolute;
+            top: 760px;
+            left: 21.5%;
+        }
+
+        .price {
+            color: rgb(237, 142, 183);
+            font-size: large;
+            position: absolute;
+            top: 731px;
+            left: 21.5%;
+        }
+
+        .icon-star1 {
+            color: rgb(239, 211, 223);
+            font-size: large;
+            position: absolute;
+            top: 731px;
+            left: 30%;
+        }
+
+        .icon-star2 {
+            position: absolute;
+            font-size: large;
+            top: 731px;
+            left: 31.3%;
+        }
+
+        .icon-star3 {
+            position: absolute;
+            font-size: large;
+            top: 731px;
+            left: 32.6%;
+        }
+
+        .icon-star4 {
+            position: absolute;
+            font-size: large;
+            top: 731px;
+            left: 33.8%;
+        }
+
+        .icon-star5 {
+            position: absolute;
+            font-size: large;
+            top: 731px;
+            left: 35%;
+        }
+
+        .icon-clock {
+            color: rgb(204, 206, 209);
+            position: absolute;
+            font-size: small;
+            top: 817px;
+            left: 21.5%;
+        }
+
+        .icon-user {
+            color: rgb(204, 206, 209);
+            position: absolute;
+            font-size: small;
+            top: 817px;
+            left: 32%;
+        }
+
+        .num-user {
+            color: rgb(204, 206, 209);
+            position: absolute;
+            font-size: small;
+            top: 817px;
+            left: 33%;
+        }
+.first{
+    display: inline;
+}
+        
+        
     </style>
 </head>
 
+
 <body>
+  <!--<div class="wave-header">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#0099ff" fill-opacity="1"
+                d="M0,32L80,58.7C160,85,320,139,480,138.7C640,139,800,85,960,74.7C1120,64,1280,96,1360,112L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+            </path>
+        </svg>
+        <h1>WAVE HEADER FOR YOUR WEBSITE</h1>
+    </div>--> 
     <header>
 
         <h1> Study Course</h1>
@@ -157,9 +293,69 @@
         <h1 class="text2">Courses</h1>
         <h4 class="text3">Take the first step to your lourney to success with us</h4>
         <button>Ready to get started?</button>
-
         <div class="overlay"></div>
-        
+        <div class="continer">
+            <p>join our learn courses</p>
+            <h2>Featured online courses</h2>
+        </div>
+    <div>    
+        <div class="first">
+            <img src="https://media.istockphoto.com/id/1358014313/photo/group-of-elementary-students-having-computer-class-with-their-teacher-in-the-classroom.jpg?s=612x612&w=0&k=20&c=3xsykmHXFa9ejL_sP2Xxiow7zdtmKvg15UxXFfgR98Q="
+                alt="">
+            <p class="parg1">
+                Open Programmig Courses for <br>evreyone : Python
+            </p>
+            <p class="price">
+                $35.00
+            </p>
+            <p class="icon-star1"><i class="fa-solid fa-star fa-sm" style="color: #6c87c3;"></i></p>
+            <p class="icon-star2"><i class="fa-solid fa-star fa-sm" style="color: #6c87c3;"></i></p>
+            <p class="icon-star3"><i class="fa-solid fa-star fa-sm" style="color: #6c87c3;"></i></p>
+            <p class="icon-star4"><i class="fa-solid fa-star fa-sm" style="color: #6c87c3;"></i></p>
+            <p class="icon-star5"><i class="fa-regular fa-star fa-sm" style="color: #6c84c3;"></i></p>
+            <p class="icon-clock"><i class="fa-regular fa-clock fa-sm" style="color: #ccced1;"></i> 20hrs</p>
+            <p class="icon-user"><i class="fa-regular fa-user fa-sm" style="color: #ccced1;"></i></p>
+            <p class="num-user">50</p>
+        </div>
+
+        <div class="first">
+            <img src="https://media.istockphoto.com/id/1358014313/photo/group-of-elementary-students-having-computer-class-with-their-teacher-in-the-classroom.jpg?s=612x612&w=0&k=20&c=3xsykmHXFa9ejL_sP2Xxiow7zdtmKvg15UxXFfgR98Q="
+                alt="">
+            <p class="parg1">
+                Open Programmig Courses for <br>evreyone : Python
+            </p>
+            <p class="price">
+                $35.00
+            </p>
+            <p class="icon-star1"><i class="fa-solid fa-star fa-sm" style="color: #6c87c3;"></i></p>
+            <p class="icon-star2"><i class="fa-solid fa-star fa-sm" style="color: #6c87c3;"></i></p>
+            <p class="icon-star3"><i class="fa-solid fa-star fa-sm" style="color: #6c87c3;"></i></p>
+            <p class="icon-star4"><i class="fa-solid fa-star fa-sm" style="color: #6c87c3;"></i></p>
+            <p class="icon-star5"><i class="fa-regular fa-star fa-sm" style="color: #6c84c3;"></i></p>
+            <p class="icon-clock"><i class="fa-regular fa-clock fa-sm" style="color: #ccced1;"></i> 20hrs</p>
+            <p class="icon-user"><i class="fa-regular fa-user fa-sm" style="color: #ccced1;"></i></p>
+            <p class="num-user">50</p>
+        </div>
+        <div class="first">
+            <img src="https://media.istockphoto.com/id/1358014313/photo/group-of-elementary-students-having-computer-class-with-their-teacher-in-the-classroom.jpg?s=612x612&w=0&k=20&c=3xsykmHXFa9ejL_sP2Xxiow7zdtmKvg15UxXFfgR98Q="
+                alt="">
+            <p class="parg1">
+                Open Programmig Courses for <br>evreyone : Python
+            </p>
+            <p class="price">
+                $35.00
+            </p>
+            <p class="icon-star1"><i class="fa-solid fa-star fa-sm" style="color: #6c87c3;"></i></p>
+            <p class="icon-star2"><i class="fa-solid fa-star fa-sm" style="color: #6c87c3;"></i></p>
+            <p class="icon-star3"><i class="fa-solid fa-star fa-sm" style="color: #6c87c3;"></i></p>
+            <p class="icon-star4"><i class="fa-solid fa-star fa-sm" style="color: #6c87c3;"></i></p>
+            <p class="icon-star5"><i class="fa-regular fa-star fa-sm" style="color: #6c84c3;"></i></p>
+            <p class="icon-clock"><i class="fa-regular fa-clock fa-sm" style="color: #ccced1;"></i> 20hrs</p>
+            <p class="icon-user"><i class="fa-regular fa-user fa-sm" style="color: #ccced1;"></i></p>
+            <p class="num-user">50</p>
+        </div>
+    </div>   
+
 </body>
 
 </html>
